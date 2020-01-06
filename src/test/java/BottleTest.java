@@ -32,4 +32,10 @@ public class BottleTest {
         // ASSERTION
         assertEquals(0, bottle.getVolume());
     }
+
+    @Test
+    public void shouldSetTheVolumeTo100(){
+        bottle.reFill();
+        assertEquals(100, bottle.getVolume());
+    }
 }

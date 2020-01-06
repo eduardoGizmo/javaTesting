@@ -19,4 +19,7 @@ public class Bottle {
     public void empty(){
         this.volume = 0;
     }
+    public void reFill(){
+        this.volume = 100;
+    }
 }
