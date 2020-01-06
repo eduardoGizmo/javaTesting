@@ -17,4 +17,11 @@ public class BottleTest {
         assertEquals(100, bottle.getVolume());
     }
 
+    @Test
+    public void shouldRemove10WhenDrinking(){
+        bottle.drink();
+        assertEquals(90, bottle.getVolume());
+
+    }
+
 }
