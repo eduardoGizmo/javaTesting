@@ -20,4 +20,8 @@ public class CalculatorTest {
     public void shouldSubtractTwoNumbers(){
         assertEquals(10.00, calculator.subtract(20.00, 10.00), 0.01);
     }
+    @Test
+    public void shouldMultiplyTwoNumbers(){
+        assertEquals(100.00, calculator.multiply(10.00, 10.00), 0.01);
+    }
 }
